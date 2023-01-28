@@ -1,0 +1,94 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/*-----------
+ common styles
+ ---------------- */
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/*-----------
+  Navbar styles
+  ----------------- */
+.container {
+    padding-top: 50px;
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-nav {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 250px;
+    color: #131313;
+
+}
+
+.second-nav {
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    padding-right: 218px;
+}
+
+/*--------------------
+ Heading and Banner styles
+ -------------------------- */
+.heading-banner {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding-left: 240px;
+padding-right: 240px;
+}
+
+.heading {
+
+}
+
+.main-heading {
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.heading-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.heading-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+button {
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+width: 180px;
+height: 64px;
+background-color:rgb(255, 123, 0);
+border-radius: 5px;
+border: none;
+}
+#banner{
+    background-image: url(../images/banner.png);
+    width: 1440px;
+height: 700px;
+border-radius: 8px;
+
+}
