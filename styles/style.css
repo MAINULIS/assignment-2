@@ -151,12 +151,68 @@ main 4 pictures and texts
     color: #727272;
 
 }
+
 /*------------------------
  -----third section-----
  ------------------------- */
- .third-container{
+.third-container {
+    padding: 130px 240px;
+    padding-top: 130px;
+    width: 1440px;
+    height: 1059px;
+}
 
- }
- .text-with-picture{
-    
- }
+.text-with-picture {
+    gap: 54px;
+    display: flex;
+}
+
+.only-text {
+    display: grid;
+    justify-content: space-between;
+    flex-direction: column;
+    /* width: 586px;
+    height: 982px; */
+
+}
+
+.third-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.third-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.img-btn{
+    width: 800px;
+    height: 1059px;
+}
+
+.last-img {
+    width: 708px;
+    height: 982px;
+}
+.last-img button{
+    width: 342px;
+    height: 200px;
+    padding: 45px 42px;
+  
+}
+
+
+#year {
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+}
