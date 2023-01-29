@@ -15,7 +15,7 @@ body {
 .container {
     padding-top: 50px;
     width: 1920px;
-    height: 1322px;
+    height: 1450px;
     background: rgba(255, 144, 14, 0.1);
 }
 
@@ -44,22 +44,20 @@ body {
  Heading and Banner styles
  -------------------------- */
 .heading-banner {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-content: center;
     padding-left: 240px;
-padding-right: 240px;
+    padding-right: 240px;
 }
 
-.heading {
-
-}
+.heading {}
 
 .main-heading {
     text-align: center;
     padding-bottom: 50px;
-    
+
 }
 
 .heading-title {
@@ -77,18 +75,88 @@ padding-right: 240px;
 
 button {
     font-weight: 600;
-font-size: 20px;
-color: #FFFFFF;
-width: 180px;
-height: 64px;
-background-color:rgb(255, 123, 0);
-border-radius: 5px;
-border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 5px;
+    border: none;
 }
-#banner{
+
+#banner {
     background-image: url(../images/banner.png);
     width: 1440px;
-height: 700px;
-border-radius: 8px;
+    height: 700px;
+    border-radius: 8px;
 
 }
+
+/* ---------------------
+main 4 pictures and texts
+--------------------------- */
+.second-container {
+    padding-top: 50px;
+
+}
+
+.pictures-texts {
+    display: flex;
+    width: 50%;
+    gap: 70px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 301px;
+    gap: 24px;
+
+}
+
+.pictures img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.texts {
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 301px;
+    width: 537px;
+    height: 304px;
+
+}
+
+#of-our {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+#features {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+
+
+}
+
+.second-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+/*------------------------
+ -----third section-----
+ ------------------------- */
+ .third-container{
+
+ }
+ .text-with-picture{
+    
+ }
