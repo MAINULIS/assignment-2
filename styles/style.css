@@ -256,7 +256,7 @@ main 4 pictures and texts
     height: 136.22px;
     padding: 46px 36px;
     text-align: center;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
 }
 
 #number {
@@ -264,20 +264,68 @@ main 4 pictures and texts
     font-size: 45px;
     color: #424242;
 }
-#text{
+
+#text {
     font-weight: 600;
-font-size: 20px;
-color: #727272;
+    font-size: 20px;
+    color: #727272;
 }
+
 /*---------------------
  Sponsors and Company
  -------------------------- */
- .sponsors{
+.sponsors {
+    padding: 0 689px;
+    padding-bottom: 50px;
+    width: 542px;
+    height: 129px;
+    text-align: center;
+   
 
- }
- .sponsor{
+}
 
- }
- .sponsor-para{
-    
- }
+.sponsor {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+
+}
+
+.sponsor-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sonsor-company{
+padding: 50px 240px 0px 240px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.company-name{
+    width: 60px;
+height: 50px;
+
+}
+footer{
+     padding: 130px 240px 216px 240px;
+
+}
+.copyright {
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.foot {
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+}
