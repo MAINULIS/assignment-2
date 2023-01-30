@@ -256,6 +256,7 @@ main 4 pictures and texts
     height: 136.22px;
     padding: 46px 36px;
     text-align: center;
+    transform:rotate(45deg);
 }
 
 #number {
@@ -268,3 +269,15 @@ main 4 pictures and texts
 font-size: 20px;
 color: #727272;
 }
+/*---------------------
+ Sponsors and Company
+ -------------------------- */
+ .sponsors{
+
+ }
+ .sponsor{
+
+ }
+ .sponsor-para{
+    
+ }
