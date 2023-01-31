@@ -52,7 +52,7 @@ body {
     padding-right: 240px;
 }
 
-.heading {}
+/* .heading {} */
 
 .main-heading {
     text-align: center;
@@ -243,7 +243,8 @@ main 4 pictures and texts
     justify-content: space-between;
     padding: 100px 290px;
 }
-.icon-1234:hover{
+
+.icon-1234:hover {
     background-color: lightblue;
     transform: rotate(45deg);
 }
@@ -260,7 +261,7 @@ main 4 pictures and texts
     height: 136.22px;
     padding: 46px 36px;
     text-align: center;
-   
+
 }
 
 #number {
@@ -284,7 +285,7 @@ main 4 pictures and texts
     width: 542px;
     height: 129px;
     text-align: center;
-   
+
 
 }
 
@@ -302,34 +303,169 @@ main 4 pictures and texts
     color: #727272;
 }
 
-.sonsor-company{
-padding: 50px 240px 0px 240px;
-display: flex;
-justify-content: space-between;
+.sponsor-company {
+    padding: 50px 240px 0px 240px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
-.company-name{
+.company-name {
     width: 60px;
-height: 50px;
+    height: 50px;
 
 }
-footer{
-     padding: 130px 240px 216px 240px;
+
+/* footer section  */
+
+footer {
+    padding: 130px 240px 216px 240px;
 
 }
+
 .copyright {
     width: 1440px;
     height: 100px;
     border-radius: 8px;
     background: #FFF4E7;
 }
+
 .foot {
     font-weight: 400;
-font-size: 20px;
-color: #424242;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 15px;
+    font-size: 20px;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/*-------------------------------------
+        Media Queries for Mobile
+ ------------------------------------ */
+
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+    }
+
+    /* navbar section  */
+    .container, .second-container, .third-container, .fourth-container, .sponsors {
+        width: 100%;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-nav {
+        padding-left: 0;
+        font-size: medium;
+    }
+
+    .second-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* heading and banner section  */
+    .heading-banner {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .main-heading {}
+
+    .heading-title {
+        font-size: medium;
+
+    }
+
+    .heading-para {}
+
+    #banner {}
+
+    /* main 4 pictures and texts */
+
+    .pictures-texts {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+
+    }
+
+    .pictures {
+        width: 100%;
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .pictures img {}
+
+    .texts {
+        font-size: medium;
+        padding-top: 0;
+
+    }
+
+    .second-para {}
+
+    /* third section  */
+    .third-container{
+        padding-left: 0;
+    }
+    .text-with-picture{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+
+    }
+    .third-heading{
+        font-size: medium;
+
+    }
+    .sub-heading{
+        font-size: medium;
+    }
+    .last-img{
+       
+
+    }
+
+    /* fourth section  */
+    .fourth-container{
+        padding-left: 0;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);    
+
+    }
+.icons{
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+   
+.icon-1234:hover{
+    transform: none;
+}
+
+/* sponsors section  */
+.sponsors, .sponsor-company{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.company-name{
+    text-align: center;
+    
+}
+.copyright{
+    padding-left: 0;
+    height: auto;
+    width:100%;
+}
+
 }
