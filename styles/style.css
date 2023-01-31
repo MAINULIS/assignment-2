@@ -243,6 +243,10 @@ main 4 pictures and texts
     justify-content: space-between;
     padding: 100px 290px;
 }
+.icon-1234:hover{
+    background-color: lightblue;
+    transform: rotate(45deg);
+}
 
 .icon-1234 {
     border: 1px solid #FF900E;
@@ -256,7 +260,7 @@ main 4 pictures and texts
     height: 136.22px;
     padding: 46px 36px;
     text-align: center;
-    transform: rotate(45deg);
+   
 }
 
 #number {
